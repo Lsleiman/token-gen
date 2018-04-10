@@ -1,0 +1,19 @@
+
+<div class="jumbotron">
+  <h2 class="display-5">Create your own token</h2>
+  <p class="lead">
+  Metamask Active Address
+  <select class="form-control" id="exampleSelect1" name="account" (change)="clickAddress($event)">
+    <option *ngFor="let account of accounts" >{{account}}</option>
+  </select></p>
+  <hr class="my-4">
+  <label for="symbol">Symbol :</label><input class="form-control" type="text" id="symbol" placeholder="e.g., LOYT" (change)="setSymbol($event)">
+  <br><label for="name">Name: </label><input class="form-control" type="text" id="name" placeholder="e.g., LoyalTcoin" (change)="setName($event)">
+  <br><label for="description">Description: </label><input class="form-control" type="text" id="name" placeholder="e.g., LoyalTcoin is a loyalty token..." (change)="setDescription($event)">
+  <br><label for="totalSupply">Total Supply:</label><input class="form-control" type="number" id="totalSupply" placeholder="e.g., 10,000" (change)="setTotalSupply($event)">
+  <span id="status">{{status}}</span>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" id="create"  href="#" role="button" (click)="createCoin()">Create coin</a>
+  </p>
+</div>
+<br>
