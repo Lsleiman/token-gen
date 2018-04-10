@@ -1,4 +1,4 @@
-# Truffle Box for Angular
+# Token Creator Dapp
 
 This Repo was bootstrapped from Quintor's [angular-truffle-box](https://github.com/Quintor/angular-truffle-box)
 Testing units have been removed.
@@ -23,16 +23,16 @@ Truffle, Angular CLI and an Ethereum client such as Ganache
   $ npm install
   ```
 
-3. Run your Ethereum client. For TestRPC:
+3. Run your Ethereum client. For Ganache:
   ```bash
   ganache-cli
   ```
-Save the mnemonic 12-word phrase printed when you launch ganache-cli, you will need it later
+4. Save the mnemonic 12-word phrase printed when you launch ganache-cli, you will need it later
   ```bash
-  e.g:poet music emerge still anchor asset then timber fog thing exclude proces
+  poet music emerge still anchor asset then timber fog thing exclude process
   ```
 
-4. Compile and migrate your contracts.
+5. Compile and migrate your contracts.
   ```bash
   truffle compile && truffle migrate
   ```
@@ -52,6 +52,5 @@ Save the mnemonic 12-word phrase printed when you launch ganache-cli, you will n
   ```bash
   ng serve
   ```
-The app is now served on localhost:4200
 
 2. The app is now served on localhost:4200
