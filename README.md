@@ -1,8 +1,6 @@
 # Token Creator Dapp
 
-This repo contains an example of a reactive Dapp built using angular-cli and truffle. It allows you to create your own crypto token .
-
-This project was bootstrapped from Quintor's [angular-truffle-box](https://github.com/Quintor/angular-truffle-box).
+This repo contains an example of a reactive Dapp built using angular-cli and truffle. It allows you to create your own ERC-20 token. This project was bootstrapped from Quintor's [angular-truffle-box](https://github.com/Quintor/angular-truffle-box).
 
 Test units have been removed.
 
