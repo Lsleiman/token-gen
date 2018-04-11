@@ -56,4 +56,4 @@ You will also need the [MetaMask](https://metamask.io/) plugin for Chrome.
 
 2. The app can be accessed @ localhost:4200
 
-3. Once you have created your token, you will be provided with the contract address. You can use the contract address to load your tokens into your metamask or send tokens to friends and family via [etherwallet](https://www.myetherwallet.com/)
+3. Once you have created your token, you will be provided with the contract address. You can use the contract address to load your tokens into your metamask account or send tokens to friends and family via [etherwallet](https://www.myetherwallet.com/)
