@@ -1,4 +1,4 @@
-# Token Creator Dapp
+# Token Creator Dapp -- DEPRECATED
 
 This repo contains an example of a reactive Dapp built using angular-cli and truffle. It allows you to create your own ERC-20 token. This project was bootstrapped from Quintor's [angular-truffle-box](https://github.com/Quintor/angular-truffle-box).
 
